@@ -1,0 +1,6 @@
+{
+  "commandDescription": "Creates a project-scratch-def.json file based on metadata scanned from your project",
+  "pathFlagDescription": "file path to your project's metadata",
+  "editionFlagDescription": "salesforce org edition you want to generate the definition for",
+  "errorNoOrgResults": "No results found for the organization '%s'."
+}
