@@ -13,7 +13,7 @@ $ npm install -g roma
 $ roma COMMAND
 running command...
 $ roma (-v|--version|version)
-roma/0.0.1 darwin-x64 node-v10.8.0
+roma/0.0.1 darwin-x64 node-v8.9.4
 $ roma --help [COMMAND]
 USAGE
   $ roma COMMAND

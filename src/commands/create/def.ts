@@ -1,6 +1,7 @@
 import {core, flags, SfdxCommand} from '@salesforce/command';
 import {AnyJson} from '@salesforce/ts-types';
 import * as fs from 'fs';
+import mdDefinition from '../../../config/metadata.json';
 
 // Initialize Messages with the current plugin directory
 core.Messages.importMessagesDirectory(__dirname);
@@ -44,7 +45,11 @@ export default class Def extends SfdxCommand {
     const edition = this.flags.edition || 'enterprise';
     let outputString = '';
 
-    const definition = {
+    // const mdDefinition = this.config.configDir;
+    console.log('this.config.configDir: ', this.config.configDir);
+    console.log('this.config.dataDir: ', this.config);
+
+    const mdDefinition = {
       types: {
         Translations: {
           scratchDefinitions: {
@@ -70,9 +75,7 @@ export default class Def extends SfdxCommand {
         }
       },
       pathMap: {
-        objectTranslations: 'Translations' /*,
-        classes: 'ApexClass',
-        triggers: 'ApexTrigger' */
+        objectTranslations: 'Translations'
       }
     };
 
@@ -86,9 +89,9 @@ export default class Def extends SfdxCommand {
     };
 
     fs.readdirSync(path).forEach(file => {
-      if (definition.pathMap.hasOwnProperty(file)) {
-        const typeName = definition.pathMap[file];
-        const orgPref = definition.types[typeName].scratchDefinitions[edition].settings.orgPreferenceSettings;
+      if (mdDefinition.pathMap.hasOwnProperty(file)) {
+        const typeName = mdDefinition.pathMap[file];
+        const orgPref = mdDefinition.types[typeName].scratchDefinitions[edition].settings.orgPreferenceSettings;
         // copy preferences into data object
         Object.assign(data.settings.orgPreferenceSettings, orgPref);
       }

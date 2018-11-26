@@ -34,7 +34,8 @@
     "/lib",
     "/messages",
     "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
+    "/oclif.manifest.json",
+    "/config"
   ],
   "homepage": "https://github.com/lcampos/roma",
   "keywords": [
