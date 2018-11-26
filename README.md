@@ -3,15 +3,6 @@ roma
 
 Generate org shape config based on your project&#39;s metadata files
 
-[![Version](https://img.shields.io/npm/v/roma.svg)](https://npmjs.org/package/roma)
-[![CircleCI](https://circleci.com/gh/lcampos/roma/tree/master.svg?style=shield)](https://circleci.com/gh/lcampos/roma/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/lcampos/roma?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/roma/branch/master)
-[![Codecov](https://codecov.io/gh/lcampos/roma/branch/master/graph/badge.svg)](https://codecov.io/gh/lcampos/roma)
-[![Greenkeeper](https://badges.greenkeeper.io/lcampos/roma.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/github/lcampos/roma/badge.svg)](https://snyk.io/test/github/lcampos/roma)
-[![Downloads/week](https://img.shields.io/npm/dw/roma.svg)](https://npmjs.org/package/roma)
-[![License](https://img.shields.io/npm/l/roma.svg)](https://github.com/lcampos/roma/blob/master/package.json)
-
 <!-- toc -->
 * [Debugging your plugin](#debugging-your-plugin)
 <!-- tocstop -->
@@ -22,7 +13,7 @@ $ npm install -g roma
 $ roma COMMAND
 running command...
 $ roma (-v|--version|version)
-roma/0.0.1 darwin-x64 node-v8.9.4
+roma/0.0.1 darwin-x64 node-v10.8.0
 $ roma --help [COMMAND]
 USAGE
   $ roma COMMAND
