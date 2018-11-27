@@ -1,0 +1,29 @@
+{
+	"types": {
+		"Translations": {
+			"scratchDefinitions": {
+				"developer": {
+					"orgName": "Sample Org",
+					"edition": "developer",
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"enterprise": {
+					"orgName": "Sample Org",
+					"edition": "enterprise",
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"pathMap": {
+		"objectTranslations": "Translations"
+	}
+}

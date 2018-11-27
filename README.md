@@ -1,6 +1,33 @@
 roma
 ====
 
+## Prerequisites
+
+Install yarn
+```
+$ brew install yarn
+```
+
+Install [sfdx cli](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
+
+## Setup
+
+Install all project dependencies
+```
+$ yarn install
+```
+
+Compile project
+```
+$ yarn prepare
+```
+
+Link the repo to your cli
+```
+$ sfdx plugins:link roma 
+```
+
+
 Generate org shape config based on your project&#39;s metadata files
 
 <!-- toc -->
@@ -13,7 +40,7 @@ $ npm install -g roma
 $ roma COMMAND
 running command...
 $ roma (-v|--version|version)
-roma/0.0.1 darwin-x64 node-v10.8.0
+roma/0.0.1 darwin-x64 node-v8.9.4
 $ roma --help [COMMAND]
 USAGE
   $ roma COMMAND
@@ -32,8 +59,8 @@ USAGE
   $ roma create:def [FILE]
 
 OPTIONS
-  -e, --edition                                   salesforce org edition you want to generate the definition for
-  -p, --path=path                                 file path to your project's metadata
+  -e, --edition=edition                           salesforce org edition you want to generate the definition for
+  -p, --path=path                                 (required) file path to your project's metadata
   --json                                          format output as json
   --loglevel=(trace|debug|info|warn|error|fatal)  logging level for this command invocation
 
