@@ -31,11 +31,11 @@
     "node": ">=8.0.0"
   },
   "files": [
+    "/config",
     "/lib",
     "/messages",
     "/npm-shrinkwrap.json",
-    "/oclif.manifest.json",
-    "/config"
+    "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/lcampos/roma",
   "keywords": [

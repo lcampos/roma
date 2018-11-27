@@ -1,6 +1,33 @@
 roma
 ====
 
+## Prerequisites
+
+Install yarn
+```
+$ brew install yarn
+```
+
+Install [sfdx cli](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
+
+## Setup
+
+Install all project dependencies
+```
+$ yarn install
+```
+
+Compile project
+```
+$ yarn prepare
+```
+
+Link the repo to your cli
+```
+$ sfdx plugins:link roma 
+```
+
+
 Generate org shape config based on your project&#39;s metadata files
 
 <!-- toc -->

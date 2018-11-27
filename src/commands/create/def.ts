@@ -1,7 +1,8 @@
 import {core, flags, SfdxCommand} from '@salesforce/command';
 import {AnyJson} from '@salesforce/ts-types';
 import * as fs from 'fs';
-import mdDefinition from '../../../config/metadata.json';
+import { join } from 'path';
+// import mdDefinition from '../../../config/metadata.json';
 
 // Initialize Messages with the current plugin directory
 core.Messages.importMessagesDirectory(__dirname);
@@ -47,9 +48,13 @@ export default class Def extends SfdxCommand {
 
     // const mdDefinition = this.config.configDir;
     console.log('this.config.configDir: ', this.config.configDir);
-    console.log('this.config.dataDir: ', this.config);
 
-    const mdDefinition = {
+    let pluginDir = __dirname;
+    pluginDir = pluginDir.replace('/lib/commands/create/def', '');
+    const mdDefinitionPath = join(pluginDir, 'config', 'metadata.json');
+    console.log('mdDefinitionPath: ', mdDefinitionPath);
+
+    const mdDefinition =  {
       types: {
         Translations: {
           scratchDefinitions: {
@@ -79,9 +84,9 @@ export default class Def extends SfdxCommand {
       }
     };
 
-    let data = {
+    const data = {
       orgName: 'Sample Org',
-      edition: "enterprise",
+      edition: 'enterprise',
       settings: {
         orgPreferenceSettings: {
         }
@@ -100,11 +105,11 @@ export default class Def extends SfdxCommand {
     if (data) {
       const content = JSON.stringify(data, null, 2); // spacing level = 2
 
-      try{
+      try {
         fs.writeFileSync('project-scratch-def.json', content, 'utf8');
-      }catch (e){
+      } catch (e) {
         outputString = 'There was an error while creating a project-scratch-def.json';
-        console.log("Cannot write file ", e);
+        console.log('Cannot write file ', e);
       }
       outputString = 'We\'ve successfully created a project-scratch-def.json for you!';
     }
