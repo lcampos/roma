@@ -14,7 +14,7 @@
 				"enterprise": {
 					"orgName": "Sample Org",
 					"edition": "enterprise",
-				"settings": {
+					"settings": {
 						"orgPreferenceSettings": {
 							"translation": true
 						}

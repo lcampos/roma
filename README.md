@@ -59,8 +59,8 @@ USAGE
   $ roma create:def [FILE]
 
 OPTIONS
-  -e, --edition                                   salesforce org edition you want to generate the definition for
-  -p, --path=path                                 file path to your project's metadata
+  -e, --edition=edition                           salesforce org edition you want to generate the definition for
+  -p, --path=path                                 (required) file path to your project's metadata
   --json                                          format output as json
   --loglevel=(trace|debug|info|warn|error|fatal)  logging level for this command invocation
 

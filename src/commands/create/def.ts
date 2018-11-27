@@ -1,8 +1,7 @@
-import {core, flags, SfdxCommand} from '@salesforce/command';
-import {AnyJson} from '@salesforce/ts-types';
+import { core, flags, SfdxCommand } from '@salesforce/command';
+import { AnyJson } from '@salesforce/ts-types';
 import * as fs from 'fs';
-import { join } from 'path';
-// import mdDefinition from '../../../config/metadata.json';
+import * as path from 'path';
 
 // Initialize Messages with the current plugin directory
 core.Messages.importMessagesDirectory(__dirname);
@@ -28,8 +27,15 @@ export default class Def extends SfdxCommand {
 
   protected static flagsConfig = {
     // flag with a value (-n, --name=VALUE)
-    path: flags.string({char: 'p', description: messages.getMessage('pathFlagDescription')}),
-    edition: flags.boolean({char: 'e', description: messages.getMessage('editionFlagDescription')})
+    path: flags.string({
+      char: 'p',
+      description: messages.getMessage('pathFlagDescription'),
+      required: true
+    }),
+    edition: flags.string({
+      char: 'e',
+      description: messages.getMessage('editionFlagDescription')
+    })
   };
 
   // Comment this out if your command does not require an org username
@@ -41,62 +47,39 @@ export default class Def extends SfdxCommand {
   // Set this to true if your command requires a project workspace; 'requiresProject' is false by default
   protected static requiresProject = false;
 
-  public async run(): Promise<AnyJson> {
-    const path = this.flags.path; // || 'world';
-    const edition = this.flags.edition || 'enterprise';
-    let outputString = '';
-
-    // const mdDefinition = this.config.configDir;
-    console.log('this.config.configDir: ', this.config.configDir);
-
+  protected static getMdDefinitionJSON() {
     let pluginDir = __dirname;
-    pluginDir = pluginDir.replace('/lib/commands/create/def', '');
-    const mdDefinitionPath = join(pluginDir, 'config', 'metadata.json');
-    console.log('mdDefinitionPath: ', mdDefinitionPath);
+    pluginDir = pluginDir.replace('/lib/commands/create', '');
 
-    const mdDefinition =  {
-      types: {
-        Translations: {
-          scratchDefinitions: {
-            developer: {
-              orgName: 'Sample Org',
-              edition: 'developer',
-              settings: {
-                orgPreferenceSettings: {
-                  translation: true
-                }
-              }
-            },
-            enterprise: {
-              orgName: 'Sample Org',
-              edition: 'enterprise',
-              settings: {
-                orgPreferenceSettings: {
-                  translation: true
-                }
-              }
-            }
-          }
-        }
-      },
-      pathMap: {
-        objectTranslations: 'Translations'
-      }
-    };
+    const mdDefinitionPath = path.join(pluginDir, 'config', 'metadata.json');
+    let defFileContent;
+    try {
+      defFileContent = fs.readFileSync(mdDefinitionPath, 'utf8');
+    } catch (e) {
+      throw new Error('Error while reading metadata configuration file.');
+    }
+    return JSON.parse(defFileContent);
+  }
+
+  public async run(): Promise<AnyJson> {
+    const pathFlag = this.flags.path;
+    const editionFlag = this.flags.edition || 'enterprise';
+    let outputString = '';
+    const mdDefinition = Def.getMdDefinitionJSON();
 
     const data = {
       orgName: 'Sample Org',
-      edition: 'enterprise',
+      edition: editionFlag,
       settings: {
         orgPreferenceSettings: {
         }
       }
     };
 
-    fs.readdirSync(path).forEach(file => {
+    fs.readdirSync(pathFlag).forEach(file => {
       if (mdDefinition.pathMap.hasOwnProperty(file)) {
         const typeName = mdDefinition.pathMap[file];
-        const orgPref = mdDefinition.types[typeName].scratchDefinitions[edition].settings.orgPreferenceSettings;
+        const orgPref = mdDefinition.types[typeName].scratchDefinitions[editionFlag].settings.orgPreferenceSettings;
         // copy preferences into data object
         Object.assign(data.settings.orgPreferenceSettings, orgPref);
       }
