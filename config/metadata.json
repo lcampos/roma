@@ -3,8 +3,6 @@
 		"Translations": {
 			"scratchDefinitions": {
 				"developer": {
-					"orgName": "Sample Org",
-					"edition": "developer",
 					"settings": {
 						"orgPreferenceSettings": {
 							"translation": true
@@ -12,8 +10,56 @@
 					}
 				},
 				"enterprise": {
-					"orgName": "Sample Org",
-					"edition": "enterprise",
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				}
+			}
+		},
+		"SharingSet": {
+			"scratchDefinitions": {
+				"group": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"CustomObjectTranslation": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"professional": {
 					"settings": {
 						"orgPreferenceSettings": {
 							"translation": true
@@ -24,6 +70,7 @@
 		}
 	},
 	"pathMap": {
-		"objectTranslations": "Translations"
+		"objectTranslations": "Translations",
+		"sharingSets": "SharingSet"
 	}
 }
