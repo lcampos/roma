@@ -21,6 +21,9 @@
 		"SharingSet": {
 			"scratchDefinitions": {
 				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
 					"settings": {
 						"orgPreferenceSettings": {
 							"networksEnabled": true
@@ -28,6 +31,9 @@
 					}
 				},
 				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
 					"settings": {
 						"orgPreferenceSettings": {
 							"networksEnabled": true
@@ -35,9 +41,53 @@
 					}
 				},
 				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
 					"settings": {
 						"orgPreferenceSettings": {
 							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"Skill": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
 						}
 					}
 				}
@@ -63,6 +113,556 @@
 					"settings": {
 						"orgPreferenceSettings": {
 							"translation": true
+						}
+					}
+				}
+			}
+		},
+		"ManagedTopics": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"Audience": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"UserCriteria": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"Territory2Type": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				}
+			}
+		},
+		"Territory2Rule": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				}
+			}
+		},
+		"Territory2Model": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				}
+			}
+		},
+		"Territory2": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				}
+			}
+		},
+		"CommunityTemplateDefinition": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"StandardValueSetTranslation": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				}
+			}
+		},
+		"KeywordList": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"CMSConnectSource": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"GlobalValueSetTranslation": {
+			"scratchDefinitions": {
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"translation": true
+						}
+					}
+				}
+			}
+		},
+		"Network": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"ModerationRule": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"Territory2Settings": {
+			"scratchDefinitions": {
+				"group": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"orgPreferenceSettings": {
+							"territoryManagement2Enable": true
+						}
+					}
+				}
+			}
+		},
+		"CommunityThemeDefinition": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
 						}
 					}
 				}
