@@ -49,7 +49,16 @@ export default class Def extends SfdxCommand {
 
   protected static getMdDefinitionJSON() {
     let pluginDir = __dirname;
-    pluginDir = pluginDir.replace('/lib/commands/create', '');
+    const LINKED_PLUGIN_PATH = '/lib/commands/create';
+    const UNLINKED_PLUGIN_PATH = '/src/commands/create';
+
+    if (pluginDir.endsWith(LINKED_PLUGIN_PATH)) {
+      pluginDir = pluginDir.replace(LINKED_PLUGIN_PATH, '');
+    }
+
+    if (pluginDir.endsWith(UNLINKED_PLUGIN_PATH)) {
+      pluginDir = pluginDir.replace(UNLINKED_PLUGIN_PATH, '');
+    }
 
     const mdDefinitionPath = path.join(pluginDir, 'config', 'metadata.json');
     let defFileContent;
@@ -70,6 +79,7 @@ export default class Def extends SfdxCommand {
     const data = {
       orgName: 'Sample Org',
       edition: editionFlag,
+      features: [],
       settings: {
         orgPreferenceSettings: {
         }
