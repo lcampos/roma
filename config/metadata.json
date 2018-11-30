@@ -118,50 +118,6 @@
 				}
 			}
 		},
-		"ManagedTopics": {
-			"scratchDefinitions": {
-				"enterprise": {
-					"features": [
-						"COMMUNITIES"
-					],
-					"settings": {
-						"orgPreferenceSettings": {
-							"networksEnabled": true
-						}
-					}
-				},
-				"professional": {
-					"features": [
-						"COMMUNITIES"
-					],
-					"settings": {
-						"orgPreferenceSettings": {
-							"networksEnabled": true
-						}
-					}
-				},
-				"developer": {
-					"features": [
-						"COMMUNITIES"
-					],
-					"settings": {
-						"orgPreferenceSettings": {
-							"networksEnabled": true
-						}
-					}
-				},
-				"group": {
-					"features": [
-						"COMMUNITIES"
-					],
-					"settings": {
-						"orgPreferenceSettings": {
-							"networksEnabled": true
-						}
-					}
-				}
-			}
-		},
 		"Audience": {
 			"scratchDefinitions": {
 				"group": {
@@ -663,6 +619,1201 @@
 					"settings": {
 						"orgPreferenceSettings": {
 							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"PostTemplate": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"WORKFLOW"
+					]
+				},
+				"professional": {
+					"features": [
+						"WORKFLOW"
+					]
+				}
+			}
+		},
+		"PlatformCachePartition": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"DEBUGAPEX"
+					]
+				},
+				"professional": {
+					"features": [
+						"DEBUGAPEX"
+					]
+				}
+			}
+		},
+		"SiteDotCom": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"SITEFORCECONTRIBUTOR"
+					]
+				},
+				"professional": {
+					"features": [
+						"SITEFORCECONTRIBUTOR"
+					]
+				}
+			}
+		},
+		"SharingTerritoryRule": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				},
+				"professional": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				},
+				"developer": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				},
+				"group": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				}
+			}
+		},
+		"CustomFeedFilter": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"SERVICECLOUD"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"SERVICECLOUD"
+					]
+				},
+				"professional": {
+					"features": [
+						"SERVICECLOUD"
+					]
+				}
+			}
+		},
+		"CustomApplicationComponent": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"SERVICECLOUD"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"SERVICECLOUD"
+					]
+				},
+				"professional": {
+					"features": [
+						"SERVICECLOUD"
+					]
+				}
+			}
+		},
+		"ManagedTopics": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"developer": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				},
+				"group": {
+					"features": [
+						"COMMUNITIES"
+					],
+					"settings": {
+						"orgPreferenceSettings": {
+							"networksEnabled": true
+						}
+					}
+				}
+			}
+		},
+		"AIAssistantTemplate": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"EINSTEINASSISTANT"
+					]
+				},
+				"developer": {
+					"features": [
+						"EINSTEINASSISTANT"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"EINSTEINASSISTANT"
+					]
+				},
+				"professional": {
+					"features": [
+						"EINSTEINASSISTANT"
+					]
+				}
+			}
+		},
+		"Territory": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				},
+				"professional": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				},
+				"developer": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				},
+				"group": {
+					"features": [
+						"TERRITORYMANAGEMENT"
+					]
+				}
+			}
+		},
+		"ApprovalProcess": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"WORKFLOW"
+					]
+				},
+				"professional": {
+					"features": [
+						"WORKFLOW"
+					]
+				}
+			}
+		},
+		"Community": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"CHATTERANSWERS"
+					]
+				}
+			}
+		},
+		"CustomSite": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"SITEFORCECONTRIBUTOR"
+					]
+				},
+				"professional": {
+					"features": [
+						"SITEFORCECONTRIBUTOR"
+					]
+				}
+			}
+		},
+		"ChatterAnswersSettings": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"CHATTERANSWERS"
+					]
+				},
+				"developer": {
+					"features": [
+						"CHATTERANSWERS"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"CHATTERANSWERS"
+					]
+				},
+				"professional": {
+					"features": [
+						"CHATTERANSWERS"
+					]
+				}
+			}
+		},
+		"KnowledgeSettings": {
+			"scratchDefinitions": {
+				"group": {
+					"orgName": "Sample Org",
+					"edition": "group",
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"enterprise": {
+					"orgName": "Sample Org",
+					"edition": "enterprise",
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"professional": {
+					"orgName": "Sample Org",
+					"edition": "professional",
+					"features": [
+						"KNOWLEDGE"
+					]
+				}
+			}
+		},
+		"FlowDefinition": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"PROCESSBUILDER"
+					]
+				}
+			}
+		},
+		"Flow": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"PROCESSBUILDER"
+					]
+				}
+			}
+		},
+		"MilestoneType": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				}
+			}
+		},
+		"EventSubscription": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"API"
+					]
+				},
+				"professional": {
+					"features": [
+						"API"
+					]
+				}
+			}
+		},
+		"EventDelivery": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"API"
+					]
+				},
+				"professional": {
+					"features": [
+						"API"
+					]
+				}
+			}
+		},
+		"EntitlementTemplate": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				}
+			}
+		},
+		"EntitlementSettings": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"ENTITLEMENTS"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"ENTITLEMENTS"
+					]
+				},
+				"professional": {
+					"features": [
+						"ENTITLEMENTS"
+					]
+				}
+			}
+		},
+		"EntitlementProcess": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"ENTITLEMENTS"
+					],
+					"settings": {
+						"entitlementSettings": {
+							"enableEntitlements": true
+						}
+					}
+				}
+			}
+		},
+		"EmbeddedServiceLiveAgent": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"SITEFORCECONTRIBUTOR",
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"SITEFORCECONTRIBUTOR",
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				}
+			}
+		},
+		"EmbeddedServiceConfig": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"SITEFORCECONTRIBUTOR"
+					]
+				},
+				"professional": {
+					"features": [
+						"SITEFORCECONTRIBUTOR"
+					]
+				}
+			}
+		},
+		"WorkflowTask": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"professional": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				}
+			}
+		},
+		"WorkflowSend": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"WORKFLOW"
+					]
+				},
+				"professional": {
+					"features": [
+						"WORKFLOW"
+					]
+				}
+			}
+		},
+		"WorkflowOutboundMessage": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"WORKFLOW"
+					]
+				},
+				"professional": {
+					"features": [
+						"WORKFLOW"
+					]
+				}
+			}
+		},
+		"WorkflowKnowledgePublish": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"professional": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				}
+			}
+		},
+		"WorkflowFlowAction": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"PROCESSBUILDER"
+					]
+				},
+				"professional": {
+					"features": [
+						"PROCESSBUILDER"
+					]
+				}
+			}
+		},
+		"WorkflowFieldUpdate": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"professional": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				}
+			}
+		},
+		"WorkflowAlert": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"PROCESSBUILDER"
+					]
+				},
+				"professional": {
+					"features": [
+						"PROCESSBUILDER"
+					]
+				}
+			}
+		},
+		"WaveXmd": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveTemplateBundle": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveRecipe": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveLens": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveDataset": {
+			"scratchDefinitions": {
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveDataflow": {
+			"scratchDefinitions": {
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveDashboard": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"WaveApplication": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"professional": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"group": {
+					"features": [
+						"SALESWAVE"
+					]
+				},
+				"developer": {
+					"features": [
+						"SALESWAVE"
+					]
+				}
+			}
+		},
+		"LiveChatSensitiveDataRule": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				}
+			}
+		},
+		"LiveChatDeployment": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				}
+			}
+		},
+		"LiveChatButton": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				}
+			}
+		},
+		"LiveChatAgentConfig": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				},
+				"professional": {
+					"features": [
+						"LIVEAGENT"
+					],
+					"settings": {
+						"liveAgentSettings": {
+							"enableLiveAgent": true
+						}
+					}
+				}
+			}
+		},
+		"LiveAgentSettings": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEAGENT"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"LIVEAGENT"
+					]
+				},
+				"professional": {
+					"features": [
+						"LIVEAGENT"
+					]
+				}
+			}
+		},
+		"DataCategoryGroup": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				},
+				"professional": {
+					"features": [
+						"KNOWLEDGE"
+					]
+				}
+			}
+		},
+		"LiveMessageSettings": {
+			"scratchDefinitions": {
+				"group": {
+					"features": [
+						"LIVEMESSAGE"
+					]
+				},
+				"developer": {
+					"features": [
+						"LIVEMESSAGE"
+					]
+				},
+				"enterprise": {
+					"features": [
+						"LIVEMESSAGE"
+					]
+				},
+				"professional": {
+					"features": [
+						"LIVEMESSAGE"
+					]
+				}
+			}
+		},
+		"IoTSettings": {
+			"scratchDefinitions": {
+				"enterprise": {
+					"features": [
+						"IOT"
+					]
+				},
+				"group": {
+					"features": [
+						"IOT"
+					]
+				},
+				"professional": {
+					"features": [
+						"IOT"
+					]
+				},
+				"developer": {
+					"features": [
+						"IOT"
+					]
+				}
+			}
+		},
+		"ServicePresenceStatus": {
+			"scratchDefinitions": {
+				"group": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				}
+			}
+		},
+		"ServiceChannel": {
+			"scratchDefinitions": {
+				"group": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				}
+			}
+		},
+		"PresenceUserConfig": {
+			"scratchDefinitions": {
+				"group": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				}
+			}
+		},
+		"PresenceDeclineReason": {
+			"scratchDefinitions": {
+				"group": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"developer": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"enterprise": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
+						}
+					}
+				},
+				"professional": {
+					"settings": {
+						"omniChannelSettings": {
+							"enableOmniChannel": true
 						}
 					}
 				}
