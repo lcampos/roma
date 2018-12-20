@@ -1822,6 +1822,12 @@
 	},
 	"pathMap": {
 		"objectTranslations": "Translations",
-		"sharingSets": "SharingSet"
+		"sharingSets": "SharingSet",
+		"skills": "Skill",
+		"audience": "Audience",
+		"userCriteria": "UserCriteria",
+		"territory2Types": "Territory2Type",
+		"territory2Models" : "Territory2Rule",
+		"territory2Models": "Territory2Model"
 	}
 }
